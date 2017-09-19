@@ -4,5 +4,9 @@ It is a note that I wrote when I was learning ES6. In this  repository, I will c
 
 # navigation
 
-[syntax]: https://github.com/tianhao351/es6-attention/blob/master/syntax.md	"syntax"
+[syntax](https://github.com/tianhao351/es6-attention/blob/master/syntax.md)
+
+
+
+
 
