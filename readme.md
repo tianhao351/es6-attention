@@ -1,5 +1,7 @@
 # ES6-attention
 
+## I. Syntax
+
 ### 1.Destructuring
 
 ```javascript
@@ -137,4 +139,47 @@ for (const digit of digits) {
 9
 
 
+
+### 4.Spread operator and Rest parameter
+
+```javascript
+const fruits = ["apples", "bananas", "pears"];
+const vegetables = ["corn", "potatoes", "carrots"];
+
+const produce = [...fruits,...vegetables];
+
+console.log(produce);
+```
+
+```javascript
+const order = [20.17, 18.67, 1.50, "cheese", "eggs", "milk", "bread"];
+const [total, subtotal, tax, ...items] = order;
+console.log(total, subtotal, tax, items);
+```
+
+sum a unknown numbers of things:
+
+old ways:
+
+```javascript
+function sum() {
+  let total = 0;  
+  for(const argument of arguments) {
+    total += argument;
+  }
+  return total;
+}
+```
+
+es6:
+
+```javascript
+function sum(...nums) {
+  let total = 0;  
+  for(const num of nums) {
+    total += num;
+  }
+  return total;
+}
+```
 
