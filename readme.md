@@ -4,9 +4,12 @@ It is a note that I wrote when I was learning ES6. In this  repository, I will c
 
 # navigation
 
-## I.[syntax](https://github.com/tianhao351/es6-attention/blob/master/syntax.md)
-
+## I.[Syntax](https://github.com/tianhao351/es6-attention/blob/master/Syntax.md)
 
 
 
 ## II.[Functions](https://github.com/tianhao351/es6-attention/blob/master/Functions.md)
+
+
+
+## II.[Build-ins](https://github.com/tianhao351/es6-attention/blob/master/Build-ins.md)

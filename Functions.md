@@ -453,7 +453,7 @@ Like most of the new additions, there's a lot less setup code and it's a lot cle
 
 Just remember that, under the hood, the same connections are made between functions and prototypes.
 
-### `super` must be called before `this`
+##### `super` must be called before `this`
 
 In a subclass constructor function, before `this` can be used, a call to the super class must be made.
 
@@ -466,4 +466,3 @@ class GrannySmith extends Apple {
   }
 }
 ```
-
